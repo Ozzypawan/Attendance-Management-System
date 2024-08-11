@@ -9,4 +9,4 @@ class UserAuth(models.Model):
     user_email = models.EmailField(default=None)
 
     def __str__(self):
-        return self.user_id
+        return self.user_name
